@@ -1,10 +1,782 @@
-- 👋 Hi, I’m @Adenan131
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-Adenan131/Adenan131 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<!DOCTYPE html>
+<html lang="th">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Anime Template">
+    <meta name="keywords" content="Anime, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anime | Template</title>
+ 
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+ 
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/plyr.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+ 
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+ 
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="./index.html">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="header__nav">
+                        <nav class="header__menu mobile-menu">
+                            <ul>
+                                <li class="active"><a href="./index.html">Homepage</a></li>
+                                <li><a href="./categories.html">Categories <span class="arrow_carrot-down"></span></a>
+                                    <ul class="dropdown">
+                                        <li><a href="./categories.html">Categories</a></li>
+                                        <li><a href="./anime-details.html">Anime Details</a></li>
+                                        <li><a href="./anime-watching.html">Anime Watching</a></li>
+                                        <li><a href="./blog-details.html">Blog Details</a></li>
+                                        <li><a href="./signup.html">Sign Up</a></li>
+                                        <li><a href="./login.html">Login</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html">Our Blog</a></li>
+                                <li><a href="#">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="header__right">
+                        <a href="#" class="search-switch"><span class="icon_search"></span></a>
+                        <a href="./login.html"><span class="icon_profile"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+ 
+    <!-- Hero Section Begin -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__slider owl-carousel">
+                <div class="hero__items set-bg" data-setbg="img/hero/hero-1.jpg">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="hero__text">
+                                <div class="label">Adventure</div>
+                                <h2>Kopio/Free movies Online</h2>
+                                <p>ดูหนังออนไลน์แบบฟรีฯตลอด24...</p>
+                                <a href="#"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__items set-bg" data-setbg="img/hero/hero-1.jpg">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="hero__text">
+                                <div class="label">Adventure</div>
+                                <h2>Kopio/Free movies Online</h2>
+                                <p>ดูหนังออนไลน์แบบฟรีฯตลอด24...</p>
+                                <a href="#"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__items set-bg" data-setbg="img/hero/hero-1.jpg">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="hero__text">
+                                <div class="label">Adventure</div>
+                                <h2>Kopio/Free movies Online</h2>
+                                <p>ดูหนังออนไลน์แบบฟรีฯตลอด24...</p>
+                                <a href="#"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+ 
+    <!-- Product Section Begin -->
+    <section class="product spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="trending__product">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-8">
+                                <div class="section-title">
+                                    <h4>Trending Now</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div class="btn__all">
+                                    <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/trend-1.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="https://servers.video/L/M12077.mp4">The Seven Deadly Sins: Wrath of the Gods</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/trend-2.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/trend-3.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Shingeki no Kyojin Season 3 Part 2</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/trend-4.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Fullmetal Alchemist: Brotherhood</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/trend-5.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Shiratorizawa Gakuen Koukou</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/trend-6.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Code Geass: Hangyaku no Lelouch R2</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popular__product">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-8">
+                                <div class="section-title">
+                                    <h4>Popular Shows</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div class="btn__all">
+                                    <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/popular/popular-1.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Sen to Chihiro no Kamikakushi</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/popular/popular-2.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Kizumonogatari III: Reiket su-hen</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/popular/popular-3.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Shirogane Tamashii hen Kouhan sen</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/popular/popular-4.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Rurouni Kenshin: Meiji Kenkaku Romantan</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/popular/popular-5.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Mushishi Zoku Shou 2nd Season</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/popular/popular-6.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Monogatari Series: Second Season</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recent__product">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-8">
+                                <div class="section-title">
+                                    <h4>Recently Added Shows</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div class="btn__all">
+                                    <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/recent/recent-1.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Great Teacher Onizuka</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/recent/recent-2.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Fate/stay night Movie: Heaven's Feel - II. Lost</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/recent/recent-3.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Mushishi Zoku Shou: Suzu no Shizuku</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/recent/recent-4.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Fate/Zero 2nd Season</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/recent/recent-5.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Kizumonogatari II: Nekket su-hen</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/recent/recent-6.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">The Seven Deadly Sins: Wrath of the Gods</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="live__product">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-8">
+                                <div class="section-title">
+                                    <h4>Live Action</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div class="btn__all">
+                                    <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/live/live-1.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Shouwa Genroku Rakugo Shinjuu</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/live/live-2.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Mushishi Zoku Shou 2nd Season</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/live/live-3.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Mushishi Zoku Shou: Suzu no Shizuku</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/live/live-4.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">The Seven Deadly Sins: Wrath of the Gods</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/live/live-5.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Fate/stay night Movie: Heaven's Feel - II. Lost</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/live/live-6.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Kizumonogatari II: Nekketsu-hen</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="product__sidebar">
+                        <div class="product__sidebar__view">
+                            <div class="section-title">
+                                <h5>Top Views</h5>
+                            </div>
+                            <ul class="filter__controls">
+                                <li class="active" data-filter="*">Day</li>
+                                <li data-filter=".week">Week</li>
+                                <li data-filter=".month">Month</li>
+                                <li data-filter=".years">Years</li>
+                            </ul>
+                            <div class="filter__gallery">
+                                <div class="product__sidebar__view__item set-bg mix day years" data-setbg="img/sidebar/tv-1.jpg">
+                                    <div class="ep">18 / ?</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    <h5><a href="#">Boruto: Naruto next generations</a></h5>
+                                </div>
+                                <div class="product__sidebar__view__item set-bg mix month week" data-setbg="img/sidebar/tv-2.jpg">
+                                    <div class="ep">18 / ?</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    <h5><a href="#">The Seven Deadly Sins: Wrath of the Gods</a></h5>
+                                </div>
+                                <div class="product__sidebar__view__item set-bg mix week years" data-setbg="img/sidebar/tv-3.jpg">
+                                    <div class="ep">18 / ?</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    <h5><a href="#">Sword art online alicization war of underworld</a></h5>
+                                </div>
+                                <div class="product__sidebar__view__item set-bg mix years month" data-setbg="img/sidebar/tv-4.jpg">
+                                    <div class="ep">18 / ?</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    <h5><a href="#">Fate/stay night: Heaven's Feel I. presage flower</a></h5>
+                                </div>
+                                <div class="product__sidebar__view__item set-bg mix day" data-setbg="img/sidebar/tv-5.jpg">
+                                    <div class="ep">18 / ?</div>
+                                    <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    <h5><a href="#">Fate stay night unlimited blade works</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__sidebar__comment">
+                            <div class="section-title">
+                                <h5>New Comment</h5>
+                            </div>
+                            <div class="product__sidebar__comment__item">
+                                <div class="product__sidebar__comment__item__pic">
+                                    <img src="img/sidebar/comment-1.jpg" alt="">
+                                </div>
+                                <div class="product__sidebar__comment__item__text">
+                                    <ul>
+                                        <li>Active</li>
+                                        <li>Movie</li>
+                                    </ul>
+                                    <h5><a href="#">The Seven Deadly Sins: Wrath of the Gods</a></h5>
+                                    <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
+                                </div>
+                            </div>
+                            <div class="product__sidebar__comment__item">
+                                <div class="product__sidebar__comment__item__pic">
+                                    <img src="img/sidebar/comment-2.jpg" alt="">
+                                </div>
+                                <div class="product__sidebar__comment__item__text">
+                                    <ul>
+                                        <li>Active</li>
+                                        <li>Movie</li>
+                                    </ul>
+                                    <h5><a href="#">Shirogane Tamashii hen Kouhan sen</a></h5>
+                                    <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
+                                </div>
+                            </div>
+                            <div class="product__sidebar__comment__item">
+                                <div class="product__sidebar__comment__item__pic">
+                                    <img src="img/sidebar/comment-3.jpg" alt="">
+                                </div>
+                                <div class="product__sidebar__comment__item__text">
+                                    <ul>
+                                        <li>Active</li>
+                                        <li>Movie</li>
+                                    </ul>
+                                    <h5><a href="#">Kizumonogatari III: Reiket su-hen</a></h5>
+                                    <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
+                                </div>
+                            </div>
+                            <div class="product__sidebar__comment__item">
+                                <div class="product__sidebar__comment__item__pic">
+                                    <img src="img/sidebar/comment-4.jpg" alt="">
+                                </div>
+                                <div class="product__sidebar__comment__item__text">
+                                    <ul>
+                                        <li>Active</li>
+                                        <li>Movie</li>
+                                    </ul>
+                                    <h5><a href="#">Monogatari Series: Second Season</a></h5>
+                                    <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Product Section End -->
+ 
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="page-up">
+            <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer__logo">
+                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="footer__nav">
+                        <ul>
+                            <li class="active"><a href="./index.html">Homepage</a></li>
+                            <li><a href="./categories.html">Categories</a></li>
+                            <li><a href="./blog.html">Our Blog</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright ©<script>
+                            document.write(new Date().getFullYear());
+                        </script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+ 
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+ 
+    <!-- Search model Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch"><i class="icon_close"></i></div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+ 
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+ 
+ 
+    <div style="text-align:right;position:fixed;z-index:9999999;bottom:0;width:auto;right:1%;cursor:pointer;line-height:0;display:block!important"><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img"><img src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png" alt="www.000webhost.com"></a></div>
+    <script>
+        function getCookie(t) {
+            for (var e = t + "=", n = decodeURIComponent(document.cookie).split(";"), o = 0; o < n.length; o++) {
+                for (var i = n[o];
+                    " " == i.charAt(0);) i = i.substring(1);
+                if (0 == i.indexOf(e)) return i.substring(e.length, i.length)
+            }
+            return ""
+        }
+        getCookie("hostinger") && (document.cookie = "hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;", location.reload());
+        var wordpressAdminBody = document.getElementsByClassName("wp-admin")[0],
+            notification = document.getElementsByClassName("notice notice-success is-dismissible"),
+            hostingerLogo = document.getElementsByClassName("hlogo"),
+            mainContent = document.getElementsByClassName("notice_content")[0];
+        if (null != wordpressAdminBody && 0 < notification.length && null != mainContent) {
+            var googleFont = document.createElement("link");
+            googleFontHref = document.createAttribute("href"), googleFontRel = document.createAttribute("rel"), googleFontHref.value = "https://fonts.googleapis.com/css?family=Roboto:300,400,600,700", googleFontRel.value = "stylesheet", googleFont.setAttributeNode(googleFontHref), googleFont.setAttributeNode(googleFontRel);
+            var css = "@media only screen and (max-width: 576px) {#main_content {max-width: 320px !important;} #main_content h1 {font-size: 30px !important;} #main_content h2 {font-size: 40px !important; margin: 20px 0 !important;} #main_content p {font-size: 14px !important;} #main_content .content-wrapper {text-align: center !important;}} @media only screen and (max-width: 781px) {#main_content {margin: auto; justify-content: center; max-width: 445px;}} @media only screen and (max-width: 1325px) {.web-hosting-90-off-image-wrapper {position: absolute; max-width: 95% !important;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 1;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} #main_content {margin-left: 5%; max-width: 445px;} .web-hosting-90-off-image-wrapper {position: absolute; display: flex; justify-content: center; width: 50%; margin-left: 45%;}} .web-hosting-90-off-image {max-width: 90%;} .content-wrapper {min-height: 454px; display: flex; flex-direction: column; justify-content: center; z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{box-shadow: 0 2px 4px 0 rgba(255, 69, 70, 0.2); width: 264px; border: 0; border-radius: 3px; background-color: #FF5C62 !important; padding: 15px 55px !important; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 600; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: #d10303 !important;}",
+                style = document.createElement("style"),
+                sheet = window.document.styleSheets[0];
+            style.styleSheet ? style.styleSheet.cssText = css : style.appendChild(document.createTextNode(css)), document.getElementsByTagName("head")[0].appendChild(style), document.getElementsByTagName("head")[0].appendChild(googleFont);
+            var button = document.getElementsByClassName("upgrade_button_red")[0],
+                link = button.parentElement;
+            link.setAttribute("href", "https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=panel&utm_campaign=000-wp"), link.innerHTML = '<button class="upgrade_button_red_sale">Claim Deal</button>', (notification = notification[0]).setAttribute("style", "padding-bottom: 0; padding-top: 5px; background-color: #040713; background-size: cover; background-repeat: no-repeat; color: #ffffff; border-left-color: #040713;"), notification.className = "notice notice-error is-dismissible";
+            var mainContentHolder = document.getElementById("main_content");
+            mainContentHolder.setAttribute("style", "padding: 0;"), hostingerLogo[0].remove();
+            var h1Tag = notification.getElementsByTagName("H1")[0];
+            h1Tag.className = "000-h1", h1Tag.innerHTML = "Black Friday", h1Tag.setAttribute("style", 'color: white; font-family: "Roboto", sans-serif; font-size: 48px; font-weight: 700;');
+            var h2Tag = document.createElement("H2");
+            h2Tag.innerHTML = "Up to 90% off 4-year hosting plans + free domain, SSL & DDoS protection", h2Tag.setAttribute("style", 'color: white; margin: 10px 0 15px 0; font-family: "Roboto", sans-serif; font-size: 16px; font-weight: 400; line-height: 1;'), h1Tag.parentNode.insertBefore(h2Tag, h1Tag.nextSibling);
+            var paragraph = notification.getElementsByTagName("p")[0];
+            paragraph.innerHTML = "$<span style='font-size: 80px;'>2.49</span>/mo", paragraph.setAttribute("style", 'font-family: "Roboto", sans-serif; font-size: 48px; font-weight: 700; margin: 0;');
+            var list = notification.getElementsByTagName("UL")[0];
+            list.remove();
+            var org_html = mainContent.innerHTML,
+                new_html = '<div class="content-wrapper">' + mainContent.innerHTML + '</div><div class="web-hosting-90-off-image-wrapper"><img class="web-hosting-90-off-image" src="https://cdn.000webhost.com/000webhost/promotions/bf-2022-bottom-banner.png"></div>';
+            mainContent.innerHTML = new_html;
+            var saleImage = mainContent.getElementsByClassName("web-hosting-90-off-image")[0]
+        }
+    </script>
+</body>
+ 
+</html>
