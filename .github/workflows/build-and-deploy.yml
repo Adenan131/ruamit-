@@ -1,4 +1,3 @@
-name build-and-deploy.yml
 on:
   push:
     branches:
@@ -7,8 +6,7 @@ on:
     branches:
       - main
   workflow_dispatch:
-jobs:
-  
+jobs:  
   build-and-deploy:
     runs-on: ubuntu-latest
    steps:
