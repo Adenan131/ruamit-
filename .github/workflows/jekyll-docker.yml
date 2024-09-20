@@ -3,8 +3,18 @@
 # Then it deletes the database and the instance. Each of these steps waits
 # until the long-running operation of creating or deleting the SQL database completes.
 # Expected successful output: "SUCCESS"
-
-- init:
+name: learn-github-actions
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+    - run: npm install -g bats
+    - run: bats -v    
     assign:
       - project: ${sys.get_env("GOOGLE_CLOUD_PROJECT_ID")}
       - instance: "[fill in an instance name]"
